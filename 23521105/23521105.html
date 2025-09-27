@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <title>Giới thiệu bản thân</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#introduction">Giới thiệu bản thân</a>
+    <a href="#contact">Gửi thông tin và liên hệ cùng tôi</a>
+  </nav>
+
+  <div id="introduction">
+    <h1 style="color:#CAEDFF">Giới thiệu bản thân</h1>
+    <img src="images.jpg" alt="Ảnh đại diện" width="150" height="150" style="display:block; margin:auto;">
+
+    <h2 style="color:#D8B4F8">Thông tin cơ bản</h2>
+    <ul>
+      <li>Tên: Tuyết Nhi</li>
+      <li>Năm sinh: 2005</li>
+      <li>Chuyên ngành: Hệ thống thông tin</li>
+    </ul>
+
+    <h2 style="color:#D8B4F8">Sở thích</h2>
+    <h3 style="color:#FFC7EA">Món ăn</h3>
+    <ol>
+      <li>Sashimi</li>
+      <li>Bánh tacos</li>
+      <li>Gà rán</li>
+    </ol>
+
+    <h3 style="color:#FFC7EA">Giải trí</h3>
+    <h4>Trò chơi</h4>
+    <ul>
+      <li>Play Together</li>
+      <li>Liên Quân Mobile</li>
+      <li>Ngôi sao thời trang</li>
+    </ul>
+
+    <h4>Bài hát yêu thích</h4>
+    <ul>
+      <li>Em của ngày hôm qua - Sơn Tùng MTP</li>
+      <li>Kho báu - (S)TRONG</li>
+      <li>Tràn bộ nhớ - Dương Domic</li>
+    </ul>
+
+    <h2 style="color:#D8B4F8">Mục tiêu của bản thân</h2>
+    <table>
+      <tr>
+        <th>Mục tiêu</th>
+        <th>Thời hạn</th>
+        <th>Hoàn thành</th>
+      </tr>
+      <tr>
+        <td>Hoàn thành môn học với kết quả tốt</td>
+        <td>20/12/2025</td>
+        <td><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Nâng cao trình độ ngoại ngữ</td>
+        <td>29/12/2025</td>
+        <td><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Tìm hiểu và thực hành một số công nghệ mới (AI, Data Science,...)</td>
+        <td>31/12/2025</td>
+        <td><input type="checkbox"></td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="contact">
+    <h2 style="color:#D8B4F8">Gửi thông tin và giao lưu cùng tôi</h2>
+    <form action="#" method="get">
+      <label for="name">Họ và tên:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="message">Tin nhắn:</label><br>
+      <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+      <label>Giới tính:</label><br>
+      <input type="radio" id="male" name="gender" value="Nam">
+      <label for="male">Nam</label>
+      <input type="radio" id="female" name="gender" value="Nữ">
+      <label for="female">Nữ</label>
+      <br><br>
+
+      <label>Sở thích:</label><br>
+      <input type="checkbox" id="lienquan" name="hobby" value="Liên Quân Mobile">
+      <label for="lienquan">Liên Quân Mobile</label>
+      <input type="checkbox" id="playtogether" name="hobby" value="Play Together">
+      <label for="playtogether">Play Together</label>
+      <input type="checkbox" id="ngoisao" name="hobby" value="Ngôi sao thời trang">
+      <label for="ngoisao">Ngôi sao thời trang</label>
+      <br><br>
+
+      <label for="major">Ngành:</label>
+      <select id="major" name="major">
+        <option value="is">Hệ thống thông tin</option>
+        <option value="cs">Khoa học máy tính</option>
+        <option value="ec">Thương mại điện tử</option>
+        <option value="ce">Kỹ thuật máy tính</option>
+        <option value="se">Kỹ thuật phần mềm</option>
+        <option value="ds">Khoa học dữ liệu</option>
+      </select>
+      <br><br>
+
+      <input type="submit" value="Gửi">
+    </form>
+  </div>
+
+  <footer>
+    <p>@2025 23521105 Đỗ Tuyết Nhi</p>
+  </footer>
+
+</body>
+</html>

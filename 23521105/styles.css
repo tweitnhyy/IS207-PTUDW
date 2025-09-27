@@ -1,0 +1,60 @@
+h1, h2, h3, h4 {
+  font-size: 24px;
+  -webkit-text-stroke: 1px black;
+}
+
+#introduction {
+  background-color: #F3FDE8;
+  padding: 15px;
+}
+
+#contact {
+  background-image: url('bg3.jpg');
+  background-repeat: repeat;
+  text-align: center;
+  padding: 20px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+nav, footer {
+  background-color: #d4f2f4;
+  color: #0b0848;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #0b0848;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: #D8B4F8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #CAEDFF;
+  color: #333;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #CAEDFF;
+}
+
+input[type="submit"]:active {
+  background-color: #B197FC;
+  transform: scale(0.95);
+}
